@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cd54f98148604a619bb347313fcf38b2" Name="Diagram1">
+        <EntityTypeShape EntityType="PharmacyDBModel.Admin" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Firm" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Medicine" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Medicine_To_Firms" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Medicine_To_Tags" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Order" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Tag" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PharmacyDBModel.Worker" Width="1.5" PointX="0.75" PointY="11.5" IsExpanded="true" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Medicine_To_Firms_Firms" ManuallyRouted="false" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Medicine_To_Firms_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Medicine_To_Tags_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Orders_Medicine" ManuallyRouted="false" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Medicine_To_Tags_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="PharmacyDBModel.FK_Orders_Workers" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
